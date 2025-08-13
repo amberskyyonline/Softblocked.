@@ -1,1 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Softblocked</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Softblocked</h1>
+    <p class="tagline">a soft place to land... or spill.</p>
+
+    <form id="submit-form">
+      <label for="story">Your Story</label>
+      <textarea id="story" placeholder="type your tea here..." required></textarea>
+
+      <label for="tag">Tag</label>
+      <select id="tag">
+        <option value="">choose a tag</option>
+        <option value="gaslighting">Gaslighting</option>
+        <option value="ghosting">Ghosting</option>
+        <option value="cheating">Cheating</option>
+        <option value="lovebombing">Lovebombing</option>
+      </select>
+
+      <label class="checkbox">
+        <input type="checkbox" id="terms" required />
+        I agree to the <a href="#">terms</a> and <a href="#">community guidelines</a>
+      </label>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
 
